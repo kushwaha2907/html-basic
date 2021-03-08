@@ -1,0 +1,108 @@
+footer #para{
+    /* trade mark line of website   */
+    
+    margin: -7px;
+    padding: 43px;
+    text-align: center;
+    font-size: 19px;
+    background-color: yellow;
+    color: black;
+    font-style: oblique;
+}
+footer .contact{
+ /* company detail bax    */
+    padding: 50px;
+    width: 26%;
+    background-color:#d3f1f5;
+
+}
+/* this is for viewer details input  */
+footer .contact .para1footer2{
+    
+    padding: 10px;
+    width: 226px;
+}
+footer .contact .para2footer2{
+    
+    padding: 10px;
+    width: 188px;
+}
+footer .contact .para3footer2{
+    
+    padding: 10px;
+    width: 148px;
+}
+footer .contact .headingfooter2{
+
+    padding: 10px;
+    width: 284px;
+    font-size: 50px;
+}
+/* this is for target company email  */
+footer p a{
+    color: rgb(48, 41, 41);
+    text-decoration: none;
+}
+
+footer p a:hover{
+    background-color: white;
+    color: rgb(196, 80, 80);
+
+}
+/* viewer input details section  */
+.footer2 .contact2{
+  
+    position: absolute;
+    right: 13px;
+    top: 10px; 
+    background-color: lightyellow;
+}
+/* viewer input details sizing section  */
+.contact2{
+   
+    padding: 58px;
+    width: 779px;
+    margin: auto;
+    height: 355px;
+    
+}
+.contact2 .name{
+    padding: 30px;
+    width: 358px;
+}
+.contact2 .email{
+    padding: 30px;
+    width: 358px;
+}
+.contact2 .address{
+    padding: 30px;
+    width: 358px;
+}
+.contact2 .btn{
+    padding: 11px;
+    width: 722px;
+}
+.contact2 .name , .email, .address , .btn{
+    margin: auto;
+}
+/* hover viewr details section  */
+.contact2 .btn:hover{
+    background-color: yellow;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.footer2 .contact2:hover{
+    background-color: darksalmon;
+    border-radius: 15px;
+}
+footer .contact:hover{
+    background-color: darksalmon;
+    border-radius: 15px;
+}
+/* hover for trademark line  */
+.footer #para:hover{
+    color: coral;
+    background-color: rgb(158, 126, 126);
+    font-size: xx-large;
+}
