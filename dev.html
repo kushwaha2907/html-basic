@@ -1,0 +1,237 @@
+!DOCTYPE html>
+<!--for comment-->
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <!--character used-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--design for screen display-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html">
+    <title> js css , heading paragraphs and emmet </title>
+    <!--include external css-->
+    <link rel="stylesheet" href="dev.css">
+    <!--include external javascript-->
+    <script src="dev.js"></script>
+    <style>
+        
+        th{
+            border: 2px solid black;
+        }
+        .name{
+            border: 2px solid black;
+        }
+        .num{
+            border: 2px solid black;
+        }
+        .roll{
+            border: 2px solid black;
+        }
+        #tab{
+            padding: 5px;
+            border: 2px solid black;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--use for content-->
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+    <!--lorem se bna dummy text example hn emmet k tags k-->
+    <p>this is for example of paragraph</p>
+    <p style="color: chocolate;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam exercitationem et minima vel <strong>this is for
+            bold text</strong> adipisci, id unde maiores repellendus hic ad blanditiis nobis quas <em>this is <b>for
+                bold</b> change text syle</em> possimus omnis ipsam <i>for italic</i> esse maxime rem eum?</p>
+    <!--for writting and lorem is the emment tool-->
+    <p>first <br> this is for line breaks
+    </p>
+    <p>secound</p>
+    <hr>
+    <p>third </p>
+    <p>fourth</p>
+    <p style="border: 2px solid darkgoldenrod;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, odit?</p>
+    <!--ctrl + enter for reach new line-->
+
+</body>
+<title>links and images</title>
+
+<body>
+    <a href="https://google.com" target="_blank"> to reach website goolge</a><br>
+    <hr>
+    <a href="https://facebook.com" target="_blank"> to reach website facebook</a><br>
+    <hr>
+    <a href="/dev2.html" target="_blank">dev</a><br>
+    <a href="/dev3.html" target="_blank">dev 3</a><br>
+
+    <a href="/dev4.html" target="_blank">this is 4<sup>th</sup> page</a> <br><br>
+    <br><br><br><br>
+    <img src="https://source.unsplash.com/random/600x600" alt="this is random photo" title="image source is unsplash"><br><br><br><hr>
+    <!--img tag for photo src means source and if any issue with photo alt is error ya jo hm likhenge vo shwo krega-->
+    <!-- for making lists ul for unorderd ,li for lines and ol for orderd lists-->
+    <ul type="square">
+        <li>unorder list</li>
+        <li>unorder list</li>
+
+        <ul type="circle">
+            <!--list k ander list-->
+            <li>list k ander list</li>
+            <li>list k ander list</li>
+            <li>list k ander list</li>
+            <li>list k ander list</li>
+        </ul>
+
+        <li>unorder list</li>
+    </ul>
+    <ol type="A">
+        <li>order list</li>
+        <li>order list</li>
+        <li>order list</li>
+    </ol>
+    <!-- tables thead for heading, tr for making rows, th for head data, tbody for content of headings, td for body data -->
+    <h3>html table</h3>
+    <table id="tab" style="width: 50%;color: darkgoldenrod;text-decoration: darkorange;">
+        <thead>
+            <tr>
+                <th>Sno.</th>
+                <th>name </th>
+                <th>employee ID </th>
+                <th> post </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>1</td>
+                <td class="name">dve</td>
+                <td class="num">34734</td>
+                <td class="roll">senoirr programmer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="name">jack</td>
+                <td class="num">385784</td>
+                <td class="roll" >juniour programmer</td>
+                
+                
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="name">mac</td>
+                <td class="num" >84534</td>
+                <td class="roll" >intern programmer</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- forms-->
+    <h2>this is forms</h2>
+    <form action="backend.php">
+        <!--for server-->
+        <label for="name">name</label>
+        <div>
+            <!--for block then goto next line like br-->
+            name: <input type="text" name="myname" id="name">
+            <!--for user input-->
+        </div>
+        <br>
+        <div>
+            phone no.: <input type="number" name="my phone number">
+        </div>
+        <br>
+        <div>
+            email: <input type="email" name="my email">
+        </div>
+        <br>
+        <div>
+            date: <input type="date" name="my date">
+        </div>
+        <br>
+        <div>
+            write about yourself <textarea name="" id="" cols="30" rows="10"></textarea>
+            <!--input from user to write things-->
+        </div>
+        <br>
+        <div>
+            gender: male <input type="radio" name="my gender"> female <input type="radio" name="my gender"> other <input
+                type="radio" name="my gender">
+            <!--radio for making choice-->
+        </div>
+        <div>
+            eligiblity: <input type="checkbox" name="my eligiblity"><!-- checkbox for tick -->
+        </div>
+        <br>
+        <div>
+            submit: <input type="submit" value="submit now">
+            <!--for submit form-->
+        </div>
+        <br>
+        <div>
+            reset now: <input type="reset" value="reset now">
+            <!--for reset form-->
+        </div><br>
+
+        <hr>
+        <div style="border: 2px solid red; width: 10%;">
+            <label for="car">car</label>
+            <select name="car" id="car">
+                <option value="range rover">range rover</option>
+                <option value="bmw i8">bmw</option>
+            </select>
+        </div>
+
+
+    </form>
+    <br>
+    
+    <br>
+
+    <a style="border: 2px solid red;">paragph p is work like block </a>
+    <span style="border: 3px solid yellow;">span is not work like p that continue the line witout break</span>
+    <p style="border: 2px solid darkred;">this is for making border</p>
+    <strong style="border: 2px solid deepskyblue;"> this is for bold text</strong>
+    <br><em style="border: 2px solid forestgreen;">what he does</em>
+    <!--<address>
+        <p>7983135926</p>
+    </address><br>
+    <q>this text shown in quotes </q><br><br>
+    <blockquote><a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">about Virat_Kohli</a>
+        <p>Virat_Kohli is a great batsman</p>
+    </blockquote>
+    <p>the movie <cite>tahnaji </cite> is all about to capture a place</p>-->
+    <!--ye mne book se phdi thi-->
+    <p>kya tumhe pta hn <del>m </del><ins> tum</ins> chutiya ho</p>
+    <!--ins and del are stands for inserting and deleting in text-->
+    <p>my name is <s>rahul</s><br>dev kushwaha</p>
+    <dl>
+        <!--this is defination block-->
+        <dt>dbms</dt>
+        <!--this is term to describe-->
+        <dd>term refers to data base management system</dd>
+        <!--the information about term-->
+        <dd>this is use to handle the data </dd>
+        <p>paragraph tag km nahi krta hn cursor ki positin bdldeta hn</p>
+
+    </dl>
+    <h2>ids and classes</h2>
+    <div id="mainbox" class="redbg">
+
+    </div>
+    <!--emmet-->
+    <!-- . for class and # for id-->
+    <span class=" blackbg"></span>
+    <!-- for creating multiple emmets-->
+    <!--span.myclass.myclass2.myclass3 + tab-->
+    <span class="class1 class2">first</span>
+    <span class="class1 class2">secound</span>
+    <span class="class1 class2">third</span>
+
+
+</body>
+</html>
